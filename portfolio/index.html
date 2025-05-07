@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bhupendra.dev Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+        <nav>
+            <div class="left">Bhupendra's Portfolio</div>
+            <div class="right">
+                <ul>
+                    <li> <a href="#">Home</a></li>
+                    <li> <a href="#">About</a></li>
+                    <li> <a href="#">Servicecs</a></li>
+                    <li> <a href="#">Projects</a></li>
+                    <li> <a href="#">Contact Me</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="firstsection">
+            <div class="lsection">
+                <div>Hello</div>
+                I am <span class="purple">Bhupendra</span>
+                <div>a passionate</div>
+                <!-- Element to contain animated typing -->
+                <span id="element"></span>
+
+            </div>
+            <div class="rsection">
+                <img src="image/img.png" alt="">
+            </div>
+        </section>
+        <hr>
+        <section class="secondsection">
+          <span class="text-grey">what i have done so far</span>
+          <h1>Work Experience</h1>
+          <div class="box">
+            <div class="verticle">
+              <img class="img-top" src="image/html5.png" alt="">
+              <div class="verticle-title">
+                Web Developer
+              </div>
+              <div class="verticle-desc">
+                <p>I have worked as a web developer for 2 years, creating responsive and user-friendly websites using HTML, CSS, and JavaScript.</p>
+              </div>
+            </div>  
+            <div class="verticle">
+              <img class="img-top" id="java" src="image/java.png" alt="">
+              <div class="verticle-title">
+                App Developer
+              </div>
+              <div class="verticle-desc">
+                <p>I have developed several mobile applications using React Native and Flutter, focusing on performance and user experience.</p>
+              </div>
+            </div>  
+            <div class="verticle">
+              <img class="img-top" id="web" src="image/webd.png" alt="">
+              <div class="verticle-title">
+                Web Designer
+              </div>
+              <div class="verticle-desc">
+                <p>As a web designer, I have created visually appealing and user-friendly interfaces, ensuring a seamless user experience.</p>
+              </div>
+            </div>
+            <div class="verticle">
+              <img class="img-top" id="uiux" src="image/uiux.png" alt="">
+              <div class="verticle-title">
+                UI/UX Designer
+              </div>
+              <div class="verticle-desc">
+                <p>I have designed intuitive user interfaces and conducted user research to enhance the overall user experience of applications.</p>
+              </div>
+            </div>
+            <div class="verticle">
+              <img class="img-top" id="flancer" src="image/freelancer.png" alt="">
+              <div class="verticle-title">
+                Freelancer
+              </div>
+              <div class="verticle-desc">
+                <p>As a freelancer, I have collaborated with various clients to deliver high-quality web and mobile applications tailored to their needs.</p>
+              </div>
+            </div>
+          </div>
+        </section>
+        <hr>
+        <section class="thirdsection">thirdsection</section>
+    </main>
+
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+     <!-- Setup and start animation! -->
+  <script>
+    var typed = new Typed('#element', {
+      strings: ['Web Developer', 'App Developer', 'Web Designer', 'UI/UX Designer', 'freelancer'],
+      typeSpeed: 50,
+    });
+  </script>
+    <script src="script.js"></script>
+  </body>
+</html>
