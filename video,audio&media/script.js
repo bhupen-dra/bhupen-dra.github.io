@@ -1,0 +1,1 @@
+alert("i can do js");
