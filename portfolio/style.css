@@ -10,7 +10,6 @@ body{
 }
 
 nav{
-   display: flex;
    justify-content: space-around;
    align-items: center;
    height: 80px;
@@ -288,7 +287,38 @@ footer{
     height: 100px;
 }
 .footer-content{
-    margin: 40px 500px;
+    margin: 40px 0;
     padding: 25px 0;
 }
-    
+
+footer p{
+    text-align: center;
+    color: rgb(161, 152, 152);
+    font-size: 0.8rem;
+}
+
+.right .fa-solid{
+    display: none;
+}
+
+/* @media only screen and (max-width: 600px and min-width: 300px) {
+    .firstsection p{
+        font-size: 30px;
+        margin: 0 20px;
+        
+    }
+
+    .firstsection span {
+        font-size: 30px;
+        margin: 0 20px;
+        
+    }
+
+    .firstsection .rsection{
+        width: 100%;
+    }
+    .firstsection .rsection img{
+        width: 100%;
+        height: auto;
+    }
+} */
