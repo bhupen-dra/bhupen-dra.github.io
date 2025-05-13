@@ -3,8 +3,9 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Bhupendra.dev Portfolio</title>
-    <link href="/src/output.css" rel="stylesheet">
+    <title>Bhupendra.dev</title>
+    <link rel="shortcut icon" href="/portfolio/image/favicon.png" type="image/x-icon">
+    <link href="src/output.css" rel="stylesheet">
     <link rel="stylesheet" href="index.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -14,45 +15,49 @@
     />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
   </head>
-  <body class="text-white">
-    <header class="container ">
-      <nav class="md:flex justify-between p-5 items-center">
-        <div class="sm:flex-row md:flex justify-between items-center gap-4 w-[40px] text-5xl">
-          <img src="/portfolio/image/logo.png" alt="logo">
-          <h1>Bhupendra.dev</h1>
+  <body class=" text-white">
+    <header>
+      <nav class="md:flex justify-between items-center h-full py-4">
+        <div class="md:flex justify-between mx-10 items-center gap-8">
+          <img src="/portfolio/image/logo.png" class="h-8 " alt="logo">
+          <h1 class="text-2xl lg:text-5xl">Bhupendra.dev</h1>
         </div>
-        <div>
-          <ul class="hidden md:flex justify-between items-center gap-8 ">
-            <li><a href="#">Home</a></li>
-            <li><a href="#">About</a></li>
-            <li><a href="#">Projects</a></li>
-            <li><a href="#">Contact Me</a></li>
+        <div class="">
+          <ul class="hidden md:flex flex-row justify-between items-center mx-10 gap-8">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#project">Projects</a></li>
+            <li><a href="#contact">Contact Me</a></li>
+            
           </ul>
+          <div class="hidden sm:block**">
+          <i class="fa-solid fa-bars"></i>
+          </div>
         </div>
       </nav>
     </header>
 
     <main class="container">
-      <section>
-        <div class=" md:flex justify-between items-center m-8">
-          <div>
-            <h2 class="md:text-5xl">Hello</h2>
-            <h2 class="md:text-5xl">I am <span class="md:text-5xl">Bhupendra</span></h2>
-            <h2 class="md:text-5xl">a passionate</h2>
+      <section id="home">
+        <div class="flex flex-col my-8 md:flex-row justify-between items-center w-full">
+          <div class="w-full">
+            <h2 class="text-5xl">Hello</h2>
+            <h2 class="text-5xl">I am <span class="md:text-5xl">Bhupendra</span></h2>
+            <h2 class="text-5xl">a passionate</h2>
             <!-- Element to contain animated typing -->
-            <span class="md:text-5xl" id="element"></span>
+            <span class="text-5xl" id="element"></span>
           </div>
-          <div>
-            <img src="/portfolio/image/img.png" alt="">
+          <div class="w-full">
+            <img class="w-full" src="/portfolio/image/img.png" alt="">
           </div>
         </div>
       </section>
       <hr class="h-0.5 bg-blue-700">
-      <section>
+      <section id="about">
         <div class="my-16">
           <h2>what i have done so far</h2>
           <h1 class="text-3xl">Work Experience</h1>
-          <div class="grid grid-cols-4 gap-4 my-10">
+          <div class="grid grid-cols-1 md:grid-cols-3 gap-4 my-10">
             <div class="flex flex-col items-center gap-10 p-6 border-l-red-500 border-l-2 rounded-bl-4xl">
               <img class="w-36 " src="image/html5.png" alt="">
               <h1 class="text-3xl">Web Developer</h1>
@@ -82,7 +87,7 @@
           <div>
             <h1 class="text-3xl">Servicecs</h1>
             <p class="text-gray-500">Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit cumque voluptas eveniet esse! Soluta voluptatum sapiente quam, nulla fugiat incidunt.</p>
-            <div class="grid grid-cols-4 gap-4 my-10">
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-4 my-10">
               <div class="flex flex-col items-center gap-10 p-6 border-l-red-500 border-l-2 rounded-bl-4xl">
                 <img class="w-36" src="image/html5.png" alt="">
                 <h1 class="text-3xl">Web Development</h1>
@@ -108,19 +113,19 @@
         </div>  
       </section>
       <hr class="h-0.5 bg-blue-700">
-      <section>
-          <div class="my-16">
+      <section id="project">
+          <div class="my-16 w-full">
             <h1 class="text-3xl">Projects</h1>
-            <div class="my-8"> 
+            <div class="my-8 w-full"> 
               <h1>Netflix Clone</h1> 
-              <div class="flex justify-around items-center gap-4 p-4 border-t-2 border-red-500 rounded-t-4xl border-b-2 rounded-b-4xl">
+              <div class="flex justify-around items-center w-full gap-4 p-4 border-t-2 border-red-500 rounded-t-4xl border-b-2 rounded-b-4xl">
                 <p class="text-gray-500">Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit cumque voluptas eveniet esse! Soluta voluptatum sapiente quam, nulla fugiat incidunt. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Commodi sint, rerum doloremque quam maiores amet voluptates! Aut itaque saepe eligendi, soluta suscipit ut praesentium, vitae hic facere veniam nobis magnam.</p>
               <img class="w-36" src="image/freelancer.png" alt="">
               </div>
             </div>
-            <div class="my-8"> 
+            <div class="my-8 w-full"> 
               <h1>Daraz Clone</h1> 
-              <div class="just flex justify-around items-center gap-4 p-4 border-t-2 border-red-500 rounded-t-4xl border-b-2 rounded-b-4xl">
+              <div class="just flex justify-around items-center w-full gap-4 p-4 border-t-2 border-red-500 rounded-t-4xl border-b-2 rounded-b-4xl">
                 <img class="w-36" src="image/freelancer.png" alt="">
                 <p class="try text-gray-500">Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit cumque voluptas eveniet esse! Soluta voluptatum sapiente quam, nulla fugiat incidunt. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Commodi sint, rerum doloremque quam maiores amet voluptates! Aut itaque saepe eligendi, soluta suscipit ut praesentium, vitae hic facere veniam nobis magnam.</p>
               </div>
@@ -128,22 +133,22 @@
           </div>
       </section>
       <hr class="h-0.5 bg-blue-700">
-      <section>
+      <section id="contact">
         <div class="my-16 ">
           <h1 class="text-3xl">Contact Me</h1>
           <p class="text-gray-500">Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam cupiditate sunt sed, ametblanditiis ipsam.</p>
           <div class="flex justify-between items-center">
-            <div class="flex flex-row gap-4 p-4">
+            <div class="flex flex-row w-full gap-4 p-4">
               <a href="https://www.facebook.com/bhupendra.dev" target="_blank"><i class="fa-brands fa-facebook"></i></a>
               <a href="https://www.instagram.com/bhupendra.dev/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
               <a href="https://www.linkedin.com/in/bhupendra-dev/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
             </div>
-            <div>
+            <div class="w-full">
               <form class="flex flex-col gap-6" action="">
                 <input class="w-full h-full border-2 rounded-4xl px-8 " type="text" placeholder="Name" required>
                 <input class="w-full h-full border-2 rounded-4xl px-8" type="email" placeholder="Email" required>
                 <textarea class="w-full h-full border-2 rounded-4xl px-8" name="" id="" cols="30" rows="10" placeholder="Message"></textarea>
-                <input class="border-2 rounded-4xl py-2 px-4 bg-blue-700" type="Submit" value="Submit">
+                <input class="border-2 w-full text-center rounded-4xl py-2 px-4 bg-blue-700" type="Submit" value="Submit">
               </form>
             </div>
           </div>
@@ -151,9 +156,9 @@
       </section>
     </main>
 
-    <footer class="container text-gray-500">
+    <footer class="text-gray-500">
         <div>
-            <p class="text-center">&copy; 2023 Bhupendra.dev. All rights reserved.</p>
+            <p class="text-center">&copy; 2025 Bhupendra.dev. All rights reserved.</p>
         </div>
     </footer>
 
