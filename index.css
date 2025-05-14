@@ -1,0 +1,66 @@
+/* header */
+.container{
+    width: 86%;
+    margin: auto;
+}
+
+body{
+    background-color: rgb(15, 15, 60);
+    font-family: poppins, sans-serif;
+}
+
+nav, footer{
+    background-color: rgb(12, 5, 86);
+}
+
+h1{
+    background: linear-gradient(to right, #3c31f4, #9695f7);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;  
+    /* font-size: 3rem; */
+}
+
+h1:hover{
+    background: linear-gradient(to right, #9695f7, #3c31f4);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;  
+}
+
+nav a{
+    text-decoration: none;
+    font-size: 1.2rem;
+    background: linear-gradient(to right, #3c31f4, #9695f7);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;  
+}
+
+nav a:hover{
+    background: linear-gradient(to right, #9695f7, #3c31f4);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;  
+}
+
+/* main */
+h2{
+    color: white;
+    /* font-size: 3rem; */
+}
+span{
+    background: linear-gradient(to right, #3c31f4, #9695f7);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    /* font-size: 3rem; */
+    font-weight: 600;  
+}
+span:hover{
+    background: linear-gradient(to right, #9695f7, #3c31f4);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;  
+}
+
